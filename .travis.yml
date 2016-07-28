@@ -1,3 +1,3 @@
 script: 
-  - cowsay "Hello"
-  - fortune
+  - echo "Hello"
+  - ls
