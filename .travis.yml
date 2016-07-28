@@ -1,8 +1,8 @@
 language: cpp
 sudo: true
 
-before_install: 
-  - sudo apt-get install cowsay 
+install: 
+  - sudo apt-get install cowsay --qq
 
 script: 
   - cowsay "Hello"
