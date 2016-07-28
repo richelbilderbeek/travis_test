@@ -3,6 +3,8 @@ sudo: true
 
 install: 
   - sudo apt-get install cowsay
+  - sudo apt-get install fortune
 
 script: 
   - ./cowsay "Hello"
+  - fortune
